@@ -1,0 +1,57 @@
+/* UserDashboard.css */
+.UserDashboard-container {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 20px;
+}
+
+.UserDashboard-header {
+  font-size: 24px;
+  font-weight: bold;
+  color: #161414; /* MSU-IIT Theme */
+  text-align: center;
+}
+
+.search-box {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.student-table th,
+.student-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.student-table th {
+  background-color: #161414; /* MSU-IIT Theme */
+  color: white;
+}
+
+.student-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.student-table tr:hover {
+  background-color: #eaeaea;
+}
+/* Style the search input */
+input[type="text"] {
+  width: 250px; /* Adjust width as needed */
+  padding: 8px;
+  border: 1px solid #7c2727;
+  border-radius: 5px;
+  margin: 10px 0;
+  display: block;
+}

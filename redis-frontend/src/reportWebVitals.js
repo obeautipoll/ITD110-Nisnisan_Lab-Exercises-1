@@ -10,4 +10,4 @@ const reportWebVitals = onPerfEntry => {
   }
 };
 
-export default reportWebVitals(console.log);
+export default reportWebVitals;

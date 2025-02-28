@@ -1,0 +1,108 @@
+/* MSU-IIT Themed Styles */
+
+body {
+  background-color: #e8f5c4;
+  color: #161414;
+  font-family: 'Arial', sans-serif;
+}
+
+h2 {
+  color: #7c2727;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.add-student-btn {
+  background-color: #f8bc41;
+  color: #161414;
+  margin-bottom: 15px;
+}
+
+.edit-btn {
+  background-color: #f8bc41;
+  color: #161414;
+  margin-right: 5px;
+}
+
+.delete-btn {
+  background-color: #7e0a0a;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #161414;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #7c2727;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f8bc41;
+}
+
+tr:nth-child(odd) {
+  background-color: #fffff0;
+}
+
+input[type="file"] {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  border: 2px solid #f8bc41;
+  border-radius: 5px;
+  background-color: white;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #7c2727;
+  border-radius: 3px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+@media (max-width: 768px) {
+  table {
+      font-size: 14px;
+  }
+  
+  button {
+      font-size: 14px;
+      padding: 8px 12px;
+  }
+}
+/* Style the search input */
+input[type="text"] {
+  width: 250px; /* Adjust width as needed */
+  padding: 8px;
+  border: 1px solid #7c2727;
+  border-radius: 5px;
+  margin: 10px 0;
+  display: block;
+}
